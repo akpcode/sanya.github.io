@@ -5,8 +5,8 @@ function updateDateTime() {
     const time = currentDate.toLocaleTimeString('en-US');
   
 
-    document.getElementById('date').textContent = `Current day of the week is ${formattedDate}`;
-    document.getElementById('time').textContent = `Current UTC ${time}`;
+    document.getElementById('date').textContent = `${formattedDate}`;
+    document.getElementById('time').textContent = `${time}`;
     document.getElementById('track').textContent = `Front-End Development`;
     document.getElementById('git-link').textContent = `https://github.com/akpcode`;
 }
