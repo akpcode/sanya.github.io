@@ -24,7 +24,7 @@ h1 {
     color:FFE5E5;
    
 }
-#time {
+.time{ 
  font-size: bold;
     font-color: Green;
     font-style: italic;
