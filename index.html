@@ -7,28 +7,28 @@
     <link rel="stylesheet" href="index.css">
 </head>
 <body>
-    <header>
-        <h1 id="hn">MOSES ADENIYI</h1>
+    <div>
+        <h1 data-testid="slackUserName">MOSES ADENIYI</h1>
        
-    </header>
-    <img src="hng1.jpg" alt="MOSES ADENIYI">
-    <section>
-        <h2>Current Day</h2>
-        <p id="date"></p>
-    </section>
-    <section>
-        <h2>Current Time</h2>
-        <p id="time"></p>
-    </section>
-    <section>
-        <h2>My Track</h2>
-        <p id="track"></p>
-    </section>
-    <section>
+    <img
+     src="hng1.jpg" 
+     alt="MOSES ADENIYI" 
+     data-testid="slackDisplayImage"
+    />
+    
+   
+        <p data-testid="currentDayOfTheWeek">Monday</p>
+    
+        <p data-testid="currentUTCTime">7:35pm</p>
+        <p data-testid="mytrack"></p>
+   
         <h2>GitHub URL</h2>
-        <a href="https://github.com/akpcode/sanya.github.io" target="_blank">Visit My GitHub Profile</a>
+        <a href="https://github.com/akpcode/sanya.github.io"
+        data-testid="githubURL"
+        target="_blank">GitHub Repository</a>
 
-    </section>
-    <script src="script.js"></script>
+  
+</div>
+    <script src="index.js"></script>
 </body>
 </html>
